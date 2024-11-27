@@ -26,5 +26,8 @@ git status		:Genel durum hakkında bilgi verir.
 
 git commit -m "<mesaj>"	:Staging'te bekleyen dosyayı local repoya gönderir.
 
+.gitignore		:Dosyası git tarafından versiyonlanmasını istemediğimiz dosyalar için kullanır.
+
+
 
 
