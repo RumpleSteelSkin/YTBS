@@ -1,0 +1,30 @@
+Git Versiyon Kontrol Sistemi:
+Git, açık kaynaklı ve dağıtık bir versiyon kontrol sistemidir. Yazılım projelerinde değişikliklerin izlenmesi ve yönetimi için kullanılır. Linus Torvalds tarafından 2005 yılında Linux çekirdek geliştirme sürecini desteklemek amacıyla geliştirilmiştir.
+Benzerleri:
+Subversion, Mercurial, Perforce, Bazaar, TFS
+
+Github:
+Git versiyon kontrol sistemini kullanarak projelerinizi barındırmanızı, yönetmenizi ve paylaşmasını sağlayan web tabanlı bir platformdur.
+Benzerleri:
+GitLab, Bitbucket, SourceForge, Gitea, Gogs
+
+Git Bash
+
+mkdir 			:Klasör oluşturma.
+cd ..			:Bir klasör geri gelme.
+cd '<dosya yolu>'	:Dizinler arası geçiş.
+clear 			:Ekran temizleme.
+touch <dosya ismi>      :Dosya oluşturma.
+rm -rf <dosya ismi>  	:Dosya silmek için kullanılır.
+
+git init		:Boş bir git repo oluşturur.
+
+git add .		:Dizinde bulunan tüm dosyaları versiyonlar.
+git add <dosya adı>     :Sadece belirli dosyayı versiyonlar.
+
+git status		:Genel durum hakkında bilgi verir.
+
+git commit -m "<mesaj>"	:Staging'te bekleyen dosyayı local repoya gönderir.
+
+
+
