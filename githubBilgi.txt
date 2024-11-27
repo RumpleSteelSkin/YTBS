@@ -15,6 +15,7 @@ cd ..			:Bir klasör geri gelme.
 cd '<dosya yolu>'	:Dizinler arası geçiş.
 clear 			:Ekran temizleme.
 touch <dosya ismi>      :Dosya oluşturma.
+ls			:Dizinde bulunan dosyaları listeler.
 rm -rf <dosya ismi>  	:Dosya silmek için kullanılır.
 
 git init		:Boş bir git repo oluşturur.
@@ -30,4 +31,13 @@ git commit -m "<mesaj>"	:Staging'te bekleyen dosyayı local repoya gönderir.
 
 
 
+git branch
 
+git remote add origin https://github.com/RumpleSteelSkin/YTBS.git
+
+git push -u origin master
+
+-u			:Upstream; Bir sonraki git push git pull komutlarını yazarken origin main gibi ayrıntıları tekrar girmenize gerek kalmamasını sağlar.
+
+git pull origin master
+git push -u origin master --force
